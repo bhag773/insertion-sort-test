@@ -1,5 +1,5 @@
 import random
-y = 1000000
+y = 10000
 items = [random.randint(0,10) for x in range(y)]
 len_items = len(items)
 
@@ -13,3 +13,4 @@ for index in range(1,len_items):
 
     items[index2] = current
 print(items)
+
